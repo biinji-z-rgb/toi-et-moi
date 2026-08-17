@@ -1,0 +1,1047 @@
+[
+  {
+    "id": "l001",
+    "type": "question",
+    "level": "light",
+    "text": "Quel est le souvenir qui te fait le plus sourire quand tu penses à nous ?"
+  },
+  {
+    "id": "l002",
+    "type": "question",
+    "level": "light",
+    "text": "Qu'est-ce que je fais qui te fait sentir vraiment aimé(e) ?"
+  },
+  {
+    "id": "l003",
+    "type": "question",
+    "level": "light",
+    "text": "Quelle qualité chez moi t'a fait craquer en premier ?"
+  },
+  {
+    "id": "l004",
+    "type": "question",
+    "level": "light",
+    "text": "Si on pouvait revivre un seul de nos rendez-vous, lequel choisirais-tu ?"
+  },
+  {
+    "id": "l005",
+    "type": "question",
+    "level": "light",
+    "text": "Quel petit geste du quotidien de ma part te touche le plus ?"
+  },
+  {
+    "id": "l006",
+    "type": "question",
+    "level": "light",
+    "text": "Décris-moi en trois mots, sans réfléchir."
+  },
+  {
+    "id": "l007",
+    "type": "question",
+    "level": "light",
+    "text": "Quel est ton endroit préféré qu'on a visité ensemble ?"
+  },
+  {
+    "id": "l008",
+    "type": "question",
+    "level": "light",
+    "text": "Qu'est-ce que tu préfères : les câlins du matin ou ceux du soir ?"
+  },
+  {
+    "id": "l009",
+    "type": "question",
+    "level": "light",
+    "text": "Quelle est la chose la plus mignonne que je fais sans m'en rendre compte ?"
+  },
+  {
+    "id": "l010",
+    "type": "question",
+    "level": "light",
+    "text": "Si tu devais résumer notre couple en une chanson, ce serait laquelle ?"
+  },
+  {
+    "id": "l011",
+    "type": "question",
+    "level": "light",
+    "text": "Quel est ton amour secret parmi mes défauts ?"
+  },
+  {
+    "id": "l012",
+    "type": "question",
+    "level": "light",
+    "text": "Sur une échelle de 1 à 10, à quel point te sens-tu proche de moi en ce moment ?"
+  },
+  {
+    "id": "l013",
+    "type": "question",
+    "level": "light",
+    "text": "Qu'est-ce qui te manque le plus quand on est séparés ?"
+  },
+  {
+    "id": "l014",
+    "type": "question",
+    "level": "light",
+    "text": "Quel compliment aimerais-tu recevoir plus souvent de ma part ?"
+  },
+  {
+    "id": "l015",
+    "type": "question",
+    "level": "light",
+    "text": "Quel est ton souvenir préféré de notre rencontre ?"
+  },
+  {
+    "id": "l016",
+    "type": "question",
+    "level": "light",
+    "text": "Si on avait une soirée entièrement libre ce soir, tu rêverais de faire quoi avec moi ?"
+  },
+  {
+    "id": "l017",
+    "type": "question",
+    "level": "light",
+    "text": "Quelle habitude de moi trouves-tu attendrissante ?"
+  },
+  {
+    "id": "l018",
+    "type": "question",
+    "level": "light",
+    "text": "Quel est le meilleur compliment que je t'ai fait ?"
+  },
+  {
+    "id": "l019",
+    "type": "question",
+    "level": "light",
+    "text": "Qu'est-ce qui te fait rire à tous les coups avec moi ?"
+  },
+  {
+    "id": "l020",
+    "type": "question",
+    "level": "light",
+    "text": "Quel projet à deux te fait le plus rêver pour l'avenir ?"
+  },
+  {
+    "id": "m001",
+    "type": "question",
+    "level": "medium",
+    "text": "Quelle partie de mon corps préfères-tu regarder discrètement ?"
+  },
+  {
+    "id": "m002",
+    "type": "question",
+    "level": "medium",
+    "text": "Quel vêtement (ou absence de vêtement) me trouves-tu le plus irrésistible ?"
+  },
+  {
+    "id": "m003",
+    "type": "question",
+    "level": "medium",
+    "text": "Quel est le moment où tu m'as trouvé(e) le plus séduisant(e) récemment ?"
+  },
+  {
+    "id": "m004",
+    "type": "question",
+    "level": "medium",
+    "text": "Préfères-tu qu'on prenne notre temps ou qu'on soit impatients l'un envers l'autre ?"
+  },
+  {
+    "id": "m005",
+    "type": "question",
+    "level": "medium",
+    "text": "Quel geste tendre de ma part te donne des frissons ?"
+  },
+  {
+    "id": "m006",
+    "type": "question",
+    "level": "medium",
+    "text": "Quel est ton compliment coquin préféré à recevoir de moi ?"
+  },
+  {
+    "id": "m007",
+    "type": "question",
+    "level": "medium",
+    "text": "Où aimerais-tu recevoir un baiser surprise la prochaine fois qu'on se voit ?"
+  },
+  {
+    "id": "m008",
+    "type": "question",
+    "level": "medium",
+    "text": "Quelle tenue aimerais-tu me voir porter rien que pour toi ?"
+  },
+  {
+    "id": "m009",
+    "type": "question",
+    "level": "medium",
+    "text": "Qu'est-ce qui te met tout de suite dans l'ambiance après une longue journée ?"
+  },
+  {
+    "id": "m010",
+    "type": "question",
+    "level": "medium",
+    "text": "Quel type de message de ma part te fait rougir quand tu le lis au travail ?"
+  },
+  {
+    "id": "m011",
+    "type": "question",
+    "level": "medium",
+    "text": "Sur une échelle de 1 à 10, à quel point as-tu envie de moi en ce moment ?"
+  },
+  {
+    "id": "m012",
+    "type": "question",
+    "level": "medium",
+    "text": "Quel est le premier souvenir un peu chaud que tu as de nous deux ?"
+  },
+  {
+    "id": "m013",
+    "type": "question",
+    "level": "medium",
+    "text": "Quel endroit insolite de la maison te fait penser à une idée coquine ?"
+  },
+  {
+    "id": "m014",
+    "type": "question",
+    "level": "medium",
+    "text": "Préfères-tu qu'on improvise ou qu'on planifie un moment romantique et sensuel ?"
+  },
+  {
+    "id": "m015",
+    "type": "question",
+    "level": "medium",
+    "text": "Quel accessoire ou parfum sur moi te rend particulièrement attentif/attentive ?"
+  },
+  {
+    "id": "m016",
+    "type": "question",
+    "level": "medium",
+    "text": "Quelle scène de film ou de série t'a donné une idée pour nous ?"
+  },
+  {
+    "id": "m017",
+    "type": "question",
+    "level": "medium",
+    "text": "Quel est le compliment physique que tu n'oses jamais me faire mais que tu penses souvent ?"
+  },
+  {
+    "id": "m018",
+    "type": "question",
+    "level": "medium",
+    "text": "Préfères-tu qu'on soit doux et lents ou joueurs et intenses ?"
+  },
+  {
+    "id": "m019",
+    "type": "question",
+    "level": "medium",
+    "text": "Quel est le moment de la journée où tu as le plus envie de moi ?"
+  },
+  {
+    "id": "m020",
+    "type": "question",
+    "level": "medium",
+    "text": "Quelle petite attention sensuelle aimerais-tu que j'aie plus souvent ?"
+  },
+  {
+    "id": "m021",
+    "type": "question",
+    "level": "medium",
+    "text": "Y a-t-il une chanson qui te met instantanément dans une ambiance romantique avec moi ?"
+  },
+  {
+    "id": "m022",
+    "type": "question",
+    "level": "medium",
+    "text": "Quel est ton souvenir préféré d'une soirée improvisée entre nous ?"
+  },
+  {
+    "id": "m023",
+    "type": "question",
+    "level": "medium",
+    "text": "Quelle réaction de ma part, quand tu me séduis, te donne le plus confiance ?"
+  },
+  {
+    "id": "m024",
+    "type": "question",
+    "level": "medium",
+    "text": "Quel petit jeu de séduction aimerais-tu qu'on essaie ensemble ?"
+  },
+  {
+    "id": "m025",
+    "type": "question",
+    "level": "medium",
+    "text": "Quel surnom coquin aimerais-tu que je te donne en privé ?"
+  },
+  {
+    "id": "h001",
+    "type": "question",
+    "level": "hot",
+    "text": "Quel fantasme n'as-tu jamais osé me dire à voix haute ?"
+  },
+  {
+    "id": "h002",
+    "type": "question",
+    "level": "hot",
+    "text": "Quel est l'endroit le plus insolite où tu as déjà pensé à nous imaginer ensemble ?"
+  },
+  {
+    "id": "h003",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle chose voudrais-tu qu'on essaie une fois, juste pour voir ?"
+  },
+  {
+    "id": "h004",
+    "type": "question",
+    "level": "hot",
+    "text": "Préfères-tu prendre le contrôle ou que je le prenne ?"
+  },
+  {
+    "id": "h005",
+    "type": "question",
+    "level": "hot",
+    "text": "Quel est le mot ou la phrase qui te fait le plus d'effet quand je te le murmure ?"
+  },
+  {
+    "id": "h006",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle mise en scène ou déguisement te tente secrètement ?"
+  },
+  {
+    "id": "h007",
+    "type": "question",
+    "level": "hot",
+    "text": "Quel souvenir de nous deux est, sans hésiter, ton préféré côté intimité ?"
+  },
+  {
+    "id": "h008",
+    "type": "question",
+    "level": "hot",
+    "text": "Qu'est-ce qui te rend le plus vulnérable, dans le bon sens, avec moi ?"
+  },
+  {
+    "id": "h009",
+    "type": "question",
+    "level": "hot",
+    "text": "Aimerais-tu qu'on essaie de nouveaux endroits de la maison pour pimenter les choses ?"
+  },
+  {
+    "id": "h010",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle chose simple pourrait rendre notre prochaine nuit inoubliable, selon toi ?"
+  },
+  {
+    "id": "h011",
+    "type": "question",
+    "level": "hot",
+    "text": "Y a-t-il un objet ou accessoire que tu aimerais qu'on introduise dans notre intimité ?"
+  },
+  {
+    "id": "h012",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle est la chose la plus audacieuse que tu aies envie de me proposer, là maintenant ?"
+  },
+  {
+    "id": "h013",
+    "type": "question",
+    "level": "hot",
+    "text": "Préfères-tu qu'on parle de nos envies à voix haute ou qu'on se laisse guider par les gestes ?"
+  },
+  {
+    "id": "h014",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle est la limite que tu n'as jamais osé repousser mais que tu aimerais explorer avec moi ?"
+  },
+  {
+    "id": "h015",
+    "type": "question",
+    "level": "hot",
+    "text": "Si on filmait juste un souvenir audio de nous, à quel moment aimerais-tu que ce soit ?"
+  },
+  {
+    "id": "h016",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle partie de ton corps aimerais-tu que j'explore davantage ?"
+  },
+  {
+    "id": "h017",
+    "type": "question",
+    "level": "hot",
+    "text": "Quel rythme préfères-tu qu'on adopte quand on est vraiment seuls, sans se presser ?"
+  },
+  {
+    "id": "h018",
+    "type": "question",
+    "level": "hot",
+    "text": "Y a-t-il une position ou une pratique dont tu as envie de me parler pour la première fois ?"
+  },
+  {
+    "id": "h019",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle est ta plus grande envie inavouée envers moi en ce moment précis ?"
+  },
+  {
+    "id": "h020",
+    "type": "question",
+    "level": "hot",
+    "text": "Aimerais-tu qu'on essaie de se redécouvrir comme si c'était notre première fois ?"
+  },
+  {
+    "id": "vh001",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quel est ton fantasme le plus intense que tu n'as jamais partagé avec personne ?"
+  },
+  {
+    "id": "vh002",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Y a-t-il une pratique que tu meurs d'envie d'essayer mais que tu n'as jamais osé demander ?"
+  },
+  {
+    "id": "vh003",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Si tu pouvais me donner un seul ordre coquin ce soir, lequel serait-ce ?"
+  },
+  {
+    "id": "vh004",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quel scénario imaginaire te fait le plus fantasmer sur nous deux ?"
+  },
+  {
+    "id": "vh005",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Préfères-tu que je te dise exactement ce que j'ai envie de te faire, ou que je te surprenne ?"
+  },
+  {
+    "id": "vh006",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quelle est la chose la plus intense qu'on ait vécue ensemble et que tu aimerais revivre ?"
+  },
+  {
+    "id": "vh007",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Y a-t-il un rôle ou un jeu de rôle qui t'excite particulièrement ?"
+  },
+  {
+    "id": "vh008",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quel serait ton scénario parfait pour une soirée rien que tous les deux, sans aucune limite ?"
+  },
+  {
+    "id": "vh009",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quelle envie n'as-tu jamais formulée par peur de me surprendre ?"
+  },
+  {
+    "id": "vh010",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Si on avait 24h rien qu'à nous sans contrainte, comment les imagines-tu ?"
+  },
+  {
+    "id": "vh011",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quel est ton plus grand désir concernant notre vie intime future ?"
+  },
+  {
+    "id": "vh012",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Qu'est-ce qui te ferait perdre totalement le contrôle avec moi ?"
+  },
+  {
+    "id": "vh013",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Y a-t-il une chose que tu gardes pour toi de peur que je la juge ?"
+  },
+  {
+    "id": "vh014",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quelle serait ta façon idéale de me surprendre sexuellement ?"
+  },
+  {
+    "id": "vh015",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quel est le fantasme que tu réaliserais avec moi si on n'avait aucune limite de temps ni de lieu ?"
+  },
+  {
+    "id": "l021",
+    "type": "question",
+    "level": "light",
+    "text": "Quel type de rendez-vous aimerais-tu qu'on organise dans le mois qui vient ?"
+  },
+  {
+    "id": "l022",
+    "type": "question",
+    "level": "light",
+    "text": "Quelle est la chose la plus romantique que je t'ai offerte ou dite ?"
+  },
+  {
+    "id": "l023",
+    "type": "question",
+    "level": "light",
+    "text": "Quel est ton amour préféré chez notre couple aujourd'hui, comparé au début ?"
+  },
+  {
+    "id": "l024",
+    "type": "question",
+    "level": "light",
+    "text": "Quelle tradition à deux aimerais-tu qu'on commence ?"
+  },
+  {
+    "id": "l025",
+    "type": "question",
+    "level": "light",
+    "text": "Qu'est-ce qui te fait sentir en sécurité avec moi ?"
+  },
+  {
+    "id": "l026",
+    "type": "question",
+    "level": "light",
+    "text": "Quel est ton rêve de voyage à deux ?"
+  },
+  {
+    "id": "l027",
+    "type": "question",
+    "level": "light",
+    "text": "Quelle chanson voudrais-tu qu'on considère comme notre chanson ?"
+  },
+  {
+    "id": "l028",
+    "type": "question",
+    "level": "light",
+    "text": "Quel est le moment de la semaine où tu as le plus hâte de me retrouver ?"
+  },
+  {
+    "id": "l029",
+    "type": "question",
+    "level": "light",
+    "text": "Quelle qualité aimerais-tu que je reconnaisse plus souvent chez toi ?"
+  },
+  {
+    "id": "l030",
+    "type": "question",
+    "level": "light",
+    "text": "Quel petit rituel du quotidien avec moi te rend heureux/heureuse ?"
+  },
+  {
+    "id": "m026",
+    "type": "question",
+    "level": "medium",
+    "text": "Quel est ton souvenir préféré d'un moment où on s'est vraiment désirés ?"
+  },
+  {
+    "id": "m027",
+    "type": "question",
+    "level": "medium",
+    "text": "Préfères-tu qu'on se retrouve après une longue journée avec un câlin ou avec un baiser passionné ?"
+  },
+  {
+    "id": "m028",
+    "type": "question",
+    "level": "medium",
+    "text": "Quelle petite attention sensuelle aimerais-tu recevoir plus souvent en public, discrètement ?"
+  },
+  {
+    "id": "m029",
+    "type": "question",
+    "level": "medium",
+    "text": "Quel est le mot doux que tu aimerais entendre plus souvent de ma part ?"
+  },
+  {
+    "id": "m030",
+    "type": "question",
+    "level": "medium",
+    "text": "Quelle soirée récente t'a semblé particulièrement romantique et sensuelle avec moi ?"
+  },
+  {
+    "id": "h021",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle est la chose la plus osée que tu aies déjà pensé à voix basse en me regardant ?"
+  },
+  {
+    "id": "h022",
+    "type": "question",
+    "level": "hot",
+    "text": "Quel est ton fantasme récurrent qui revient souvent quand tu penses à nous ?"
+  },
+  {
+    "id": "h023",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle serait la surprise parfaite que tu aimerais me préparer ce week-end ?"
+  },
+  {
+    "id": "h024",
+    "type": "question",
+    "level": "hot",
+    "text": "Préfères-tu qu'on prenne des risques ou qu'on reste dans notre zone de confort intime ?"
+  },
+  {
+    "id": "h025",
+    "type": "question",
+    "level": "hot",
+    "text": "Quel est le compliment le plus intime que tu aimerais recevoir de moi, là tout de suite ?"
+  },
+  {
+    "id": "vh016",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Si tu devais écrire une seule phrase de nos envies secrètes sur un mot pour moi, que dirait-elle ?"
+  },
+  {
+    "id": "vh017",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quelle est la chose que tu voudrais qu'on essaie une fois dans notre vie, sans jugement ?"
+  },
+  {
+    "id": "vh018",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quel est ton plus grand tabou que tu commences seulement maintenant à oser partager ?"
+  },
+  {
+    "id": "cd001",
+    "type": "challenge",
+    "level": "light",
+    "mode": "duo",
+    "text": "Fais un compliment sincère à ton/ta partenaire en le/la regardant droit dans les yeux, pendant 10 secondes."
+  },
+  {
+    "id": "cd002",
+    "type": "challenge",
+    "level": "light",
+    "mode": "duo",
+    "text": "Prends la main de ton/ta partenaire et garde-la pendant les 3 prochaines minutes, sans la lâcher."
+  },
+  {
+    "id": "cd003",
+    "type": "challenge",
+    "level": "light",
+    "mode": "duo",
+    "text": "Prépare une boisson ou un petit encas pour ton/ta partenaire, sans qu'il/elle ne le demande."
+  },
+  {
+    "id": "cd004",
+    "type": "challenge",
+    "level": "light",
+    "mode": "duo",
+    "text": "Fais un compliment à voix basse à l'oreille de ton/ta partenaire."
+  },
+  {
+    "id": "cd005",
+    "type": "challenge",
+    "level": "light",
+    "mode": "duo",
+    "text": "Prenez-vous dans les bras 30 secondes, sans parler, juste se serrer fort."
+  },
+  {
+    "id": "cd006",
+    "type": "challenge",
+    "level": "medium",
+    "mode": "duo",
+    "text": "Fais un massage des épaules de 2 minutes à ton/ta partenaire."
+  },
+  {
+    "id": "cd007",
+    "type": "challenge",
+    "level": "medium",
+    "mode": "duo",
+    "text": "Chuchote à l'oreille de ton/ta partenaire ce que tu préfères chez lui/elle physiquement."
+  },
+  {
+    "id": "cd008",
+    "type": "challenge",
+    "level": "medium",
+    "mode": "duo",
+    "text": "Fais un bisou dans le cou de ton/ta partenaire, lentement, sans dire un mot."
+  },
+  {
+    "id": "cd009",
+    "type": "challenge",
+    "level": "medium",
+    "mode": "duo",
+    "text": "Danse un slow improvisé de 1 minute avec ton/ta partenaire, collés l'un à l'autre."
+  },
+  {
+    "id": "cd010",
+    "type": "challenge",
+    "level": "medium",
+    "mode": "duo",
+    "text": "Regarde ton/ta partenaire avec insistance et un sourire complice pendant 10 secondes, sans rien dire."
+  },
+  {
+    "id": "cd011",
+    "type": "challenge",
+    "level": "medium",
+    "mode": "duo",
+    "text": "Retire un vêtement (le tien) de la manière la plus séduisante possible devant ton/ta partenaire."
+  },
+  {
+    "id": "cd012",
+    "type": "challenge",
+    "level": "medium",
+    "mode": "duo",
+    "text": "Propose un baiser qui dure au moins 20 secondes, sans se presser."
+  },
+  {
+    "id": "cd013",
+    "type": "challenge",
+    "level": "hot",
+    "mode": "duo",
+    "text": "Fais un massage sensuel de 3 minutes à ton/ta partenaire, en explorant une zone qu'il/elle aime."
+  },
+  {
+    "id": "cd014",
+    "type": "challenge",
+    "level": "hot",
+    "mode": "duo",
+    "text": "Décris à voix basse à ton/ta partenaire ce que tu as envie de lui faire dans les 5 prochaines minutes."
+  },
+  {
+    "id": "cd015",
+    "type": "challenge",
+    "level": "hot",
+    "mode": "duo",
+    "text": "Enlève un vêtement de ton/ta partenaire, lentement, en le regardant dans les yeux."
+  },
+  {
+    "id": "cd016",
+    "type": "challenge",
+    "level": "hot",
+    "mode": "duo",
+    "text": "Guide ton/ta partenaire les yeux bandés vers un endroit surprise de la maison."
+  },
+  {
+    "id": "cd017",
+    "type": "challenge",
+    "level": "hot",
+    "mode": "duo",
+    "text": "Embrasse ton/ta partenaire à trois endroits différents de son corps, sans qu'il/elle sache où sera le prochain."
+  },
+  {
+    "id": "cd018",
+    "type": "challenge",
+    "level": "hot",
+    "mode": "duo",
+    "text": "Improvise un strip-tease de 30 secondes pour ton/ta partenaire, sur la musique de ton choix."
+  },
+  {
+    "id": "cd019",
+    "type": "challenge",
+    "level": "very-hot",
+    "mode": "duo",
+    "text": "Réalise, ici et maintenant, le fantasme le plus simple que ton/ta partenaire vient de confier dans ce jeu."
+  },
+  {
+    "id": "cd020",
+    "type": "challenge",
+    "level": "very-hot",
+    "mode": "duo",
+    "text": "Laisse ton/ta partenaire te donner un ordre coquin, et exécute-le sans discuter."
+  },
+  {
+    "id": "cd021",
+    "type": "challenge",
+    "level": "very-hot",
+    "mode": "duo",
+    "text": "Improvisez ensemble une mise en scène de 2 minutes autour d'un fantasme que vous venez de partager."
+  },
+  {
+    "id": "cd022",
+    "type": "challenge",
+    "level": "very-hot",
+    "mode": "duo",
+    "text": "Bandez les yeux de ton/ta partenaire et surprenez-le/la pendant 5 minutes, sans un mot."
+  },
+  {
+    "id": "cs001",
+    "type": "challenge",
+    "level": "light",
+    "mode": "solo",
+    "text": "Envoie à ton/ta partenaire un message qui explique en une phrase pourquoi tu l'aimes, là maintenant."
+  },
+  {
+    "id": "cs002",
+    "type": "challenge",
+    "level": "light",
+    "mode": "solo",
+    "text": "Prends une photo de ton sourire et envoie-la à ton/ta partenaire, sans prévenir."
+  },
+  {
+    "id": "cs003",
+    "type": "challenge",
+    "level": "light",
+    "mode": "solo",
+    "text": "Envoie un vocal de 15 secondes où tu racontes ton souvenir préféré de vous deux."
+  },
+  {
+    "id": "cs004",
+    "type": "challenge",
+    "level": "light",
+    "mode": "solo",
+    "text": "Envoie un emoji qui résume ton humeur actuelle envers ton/ta partenaire, sans aucune explication."
+  },
+  {
+    "id": "cs005",
+    "type": "challenge",
+    "level": "light",
+    "mode": "solo",
+    "text": "Trouve et envoie une chanson qui te fait penser à ton/ta partenaire, sans commentaire."
+  },
+  {
+    "id": "cs006",
+    "type": "challenge",
+    "level": "light",
+    "mode": "solo",
+    "text": "Envoie une photo de tes mains, ou d'un objet qui vous rappelle un souvenir à tous les deux."
+  },
+  {
+    "id": "cs007",
+    "type": "challenge",
+    "level": "medium",
+    "mode": "solo",
+    "text": "Envoie un message décrivant en une phrase ce que tu as envie de faire avec ton/ta partenaire ce soir."
+  },
+  {
+    "id": "cs008",
+    "type": "challenge",
+    "level": "medium",
+    "mode": "solo",
+    "text": "Envoie un message coquin mais discret à ton/ta partenaire, qu'il/elle pourra lire plus tard."
+  },
+  {
+    "id": "cs009",
+    "type": "challenge",
+    "level": "medium",
+    "mode": "solo",
+    "text": "Envoie une photo de toi qui te met en valeur, accompagnée d'un petit mot doux."
+  },
+  {
+    "id": "cs010",
+    "type": "challenge",
+    "level": "medium",
+    "mode": "solo",
+    "text": "Envoie trois mots qui décrivent ce que tu ressens pour ton/ta partenaire en ce moment."
+  },
+  {
+    "id": "cs011",
+    "type": "challenge",
+    "level": "medium",
+    "mode": "solo",
+    "text": "Envoie un message vocal en susurrant une phrase douce, comme si tu étais à son oreille."
+  },
+  {
+    "id": "cs012",
+    "type": "challenge",
+    "level": "hot",
+    "mode": "solo",
+    "text": "Envoie une photo suggestive de toi (cadrage libre, visage caché si tu préfères) rien que pour ton/ta partenaire."
+  },
+  {
+    "id": "cs013",
+    "type": "challenge",
+    "level": "hot",
+    "mode": "solo",
+    "text": "Envoie un message très explicite mais uniquement textuel, à lire une fois rentré(e)."
+  },
+  {
+    "id": "cs014",
+    "type": "challenge",
+    "level": "hot",
+    "mode": "solo",
+    "text": "Enregistre un vocal où tu décris ce que tu comptes faire à ton/ta partenaire ce soir, et envoie-le."
+  },
+  {
+    "id": "cs015",
+    "type": "challenge",
+    "level": "hot",
+    "mode": "solo",
+    "text": "Envoie une photo prise discrètement de toi, avec un clin d'œil ou un sourire en coin, comme si tu pensais à lui/elle."
+  },
+  {
+    "id": "cs016",
+    "type": "challenge",
+    "level": "very-hot",
+    "mode": "solo",
+    "text": "Envoie le message le plus osé que tu n'as jamais écrit à ton/ta partenaire, sans le relire deux fois avant d'appuyer sur envoyer."
+  },
+  {
+    "id": "cs017",
+    "type": "challenge",
+    "level": "very-hot",
+    "mode": "solo",
+    "text": "Enregistre un vocal où tu confies le fantasme que tu n'as jamais osé dire à voix haute."
+  },
+  {
+    "id": "cs018",
+    "type": "challenge",
+    "level": "very-hot",
+    "mode": "solo",
+    "text": "Envoie une photo aussi suggestive que tu oses l'assumer, avec un mot qui dit précisément ce que tu attends de ce soir."
+  },
+  {
+    "id": "cs019",
+    "type": "challenge",
+    "level": "very-hot",
+    "mode": "solo",
+    "text": "Décris par message, avec autant de détails que tu oses, la toute première chose que tu feras en le/la retrouvant ce soir."
+  },
+  {
+    "id": "cs020",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Envoie une photo légèrement dénudée, cadrée de façon à ne montrer que ce que tu veux dévoiler."
+  },
+  {
+    "id": "cs021",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Porte sous tes vêtements une tenue choisie spécialement pour ton/ta partenaire et envoie une photo d'un détail."
+  },
+  {
+    "id": "cs022",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Prends une photo devant un miroir dans une tenue très séduisante et envoie-la uniquement à ton/ta partenaire."
+  },
+  {
+    "id": "cs023",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Envoie une photo suggestive avec le message : « Tu n'as encore rien vu de ce que j'ai prévu pour ce soir. »"
+  },
+  {
+    "id": "cs024",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Envoie un vocal de 20 secondes en murmurant une phrase destinée uniquement à ton/ta partenaire."
+  },
+  {
+    "id": "cs025",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Envoie un vocal où tu révèles une envie intime que tu n'as jamais osé lui dire directement."
+  },
+  {
+    "id": "cs026",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Envoie deux photos de tenues différentes et demande : « Laquelle veux-tu que je porte quand je te retrouve ? »"
+  },
+  {
+    "id": "cs027",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Envoie uniquement un détail de ta tenue ou de ton corps, suffisamment suggestif pour laisser ton/ta partenaire deviner le reste."
+  },
+  {
+    "id": "cs028",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Envoie trois messages dans la journée : « J'ai pensé à toi », « J'ai vraiment envie de te retrouver », puis « Je te montrerai pourquoi ce soir. »"
+  },
+  {
+    "id": "cs029",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Envoie une photo où ton regard est volontairement très séducteur, sans aucun texte."
+  },
+  {
+    "id": "cs030",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Envoie un message décrivant une envie que tu aimerais réaliser avec ton/ta partenaire."
+  },
+  {
+    "id": "cs031",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Prends une photo légèrement dénudée dans un endroit privé et envoie-la avec simplement : « Pour toi. »"
+  },
+  {
+    "id": "cs032",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Envoie un message rappelant le moment de votre relation où tu as eu le plus envie de ton/ta partenaire."
+  },
+  {
+    "id": "cs033",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Écris quelque chose que tu n'aurais normalement jamais osé envoyer à ton/ta partenaire, et appuie sur envoyer sans le modifier."
+  },
+  {
+    "id": "cs034",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Envoie une photo très séduisante accompagnée uniquement de : « Essaie de rester sage jusqu'à ce soir. »"
+  },
+  {
+    "id": "cs035",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Envoie un vocal où tu annonces une surprise pour vos retrouvailles, sans révéler laquelle."
+  },
+  {
+    "id": "cs036",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Envoie une photo d'une tenue que ton/ta partenaire ne t'a jamais vue porter."
+  },
+  {
+    "id": "cs037",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Envoie à ton/ta partenaire l'une des questions très hot de ce jeu et exige une réponse honnête lors de vos retrouvailles."
+  },
+  {
+    "id": "cs038",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Envoie : « Si tu savais ce que je suis en train d'imaginer à propos de toi… » puis laisse ton/ta partenaire deviner."
+  },
+  {
+    "id": "cs039",
+    "type": "challenge",
+    "level": "ultra-hot",
+    "mode": "solo",
+    "text": "Envoie une photo suggestive, un vocal de 15 secondes et une confession intime, tous les trois dans la même journée."
+  }
+]

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Duo Intime — Le jeu à deux</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="ember" id="ember"></div>
+
+<main id="app">
+
+  <!-- ECRAN : ACCUEIL -->
+  <section class="screen active" id="screen-home">
+    <div class="brand">
+      <span class="brand-mark">✦</span>
+      <h1>Duo <em>Intime</em></h1>
+      <p class="tagline">Un jeu à deux, pour tout se dire — et un peu plus.</p>
+    </div>
+
+    <div class="card">
+      <label class="field">
+        <span>Ton prénom</span>
+        <input type="text" id="name-input" placeholder="Comment on t'appelle ?" maxlength="30" autocomplete="off" />
+      </label>
+
+      <div class="cta-stack">
+        <button class="btn btn-primary" id="btn-create">Créer une session</button>
+        <div class="divider"><span>ou</span></div>
+        <label class="field">
+          <span>Code de session</span>
+          <input type="text" id="code-input" placeholder="EX : 7GKQ2" maxlength="5" autocomplete="off" />
+        </label>
+        <button class="btn btn-outline" id="btn-join">Rejoindre</button>
+      </div>
+      <p class="error" id="home-error"></p>
+    </div>
+  </section>
+
+  <!-- ECRAN : CHOIX DU LIEU (avant creation) -->
+  <section class="screen" id="screen-location">
+    <div class="brand brand-compact">
+      <h1>Où êtes-vous <em>là</em>, tous les deux&nbsp;?</h1>
+      <p class="tagline">On adapte les défis pour que ce soit toujours réalisable.</p>
+    </div>
+    <div class="card">
+      <button class="location-option" data-location="home">
+        <span class="loc-icon">🏠</span>
+        <span class="loc-text">
+          <strong>À la maison</strong>
+          <small>Tout est permis, aucune limite.</small>
+        </span>
+      </button>
+      <button class="location-option" data-location="away">
+        <span class="loc-icon">🌆</span>
+        <span class="loc-text">
+          <strong>Dehors / au travail</strong>
+          <small>Uniquement des défis discrets et réalisables.</small>
+        </span>
+      </button>
+      <p class="error" id="location-error"></p>
+    </div>
+  </section>
+
+  <!-- ECRAN : SALLE D'ATTENTE -->
+  <section class="screen" id="screen-waiting">
+    <div class="brand brand-compact">
+      <h1>Invite ton/ta <em>partenaire</em></h1>
+      <p class="tagline">Partage ce code, ou fais scanner le QR code.</p>
+    </div>
+    <div class="card center">
+      <div class="session-code" id="session-code">— — — — —</div>
+      <div class="qr-wrap">
+        <canvas id="qr-canvas" width="200" height="200"></canvas>
+      </div>
+      <p class="muted">Session <span id="waiting-location-label"></span></p>
+      <ul class="players-list" id="players-list"></ul>
+      <p class="muted small" id="waiting-hint">En attente de ton/ta partenaire…</p>
+      <button class="btn btn-primary" id="btn-start" disabled>Commencer la partie</button>
+    </div>
+  </section>
+
+  <!-- ECRAN : JEU -->
+  <section class="screen" id="screen-game">
+    <div class="game-topbar">
+      <div class="progress-wrap">
+        <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+        <span class="progress-label" id="progress-label">Question 1 / 15</span>
+      </div>
+      <div class="heat-meter" id="heat-meter" title="Intensité de la question">
+        <span class="heat-flame">🔥</span>
+        <div class="heat-track"><div class="heat-fill" id="heat-fill"></div></div>
+      </div>
+    </div>
+
+    <div class="card item-card" id="item-card">
+      <span class="item-badge" id="item-badge">Question</span>
+      <p class="item-text" id="item-text">…</p>
+
+      <div id="question-zone">
+        <textarea id="answer-input" placeholder="Réponds sincèrement, c'est juste pour vous deux…" rows="3"></textarea>
+        <button class="btn btn-primary" id="btn-submit-answer">Envoyer ma réponse</button>
+        <p class="muted small" id="waiting-answer-hint"></p>
+      </div>
+
+      <div id="challenge-zone" class="hidden">
+        <p class="muted small" id="challenge-instruction"></p>
+        <button class="btn btn-primary" id="btn-confirm-challenge">C'est fait ✅</button>
+        <p class="muted small" id="waiting-challenge-hint"></p>
+      </div>
+    </div>
+
+    <div class="card reveal-card hidden" id="reveal-card">
+      <h3>Vos réponses</h3>
+      <div id="reveal-answers"></div>
+      <button class="btn btn-primary" id="btn-next">Question suivante</button>
+    </div>
+  </section>
+
+  <!-- ECRAN : FIN -->
+  <section class="screen" id="screen-end">
+    <div class="brand brand-compact">
+      <h1>Partie <em>terminée</em></h1>
+      <p class="tagline">Voici tout ce que vous vous êtes confié aujourd'hui.</p>
+    </div>
+    <div class="card">
+      <div id="summary-list"></div>
+      <button class="btn btn-outline" id="btn-restart">Rejouer une nouvelle partie</button>
+    </div>
+  </section>
+
+</main>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

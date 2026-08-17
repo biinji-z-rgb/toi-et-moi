@@ -1,0 +1,16 @@
+{
+  "name": "duo-intime",
+  "version": "1.0.0",
+  "description": "Application de questionnaire coquin pour couple, en temps reel, avec session par code ou QR code.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
