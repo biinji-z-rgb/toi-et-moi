@@ -101,9 +101,33 @@ function renderWaitingRoom(code, players, location) {
 
   const joinUrl = `${window.location.origin}${window.location.pathname}?code=${code}`;
   const canvas = document.getElementById('qr-canvas');
-  if (window.QRCode) {
-    QRCode.toCanvas(canvas, joinUrl, { width: 200, margin: 1, color: { dark: '#24070d', light: '#f7ece3' } });
+  const fallbackNote = document.getElementById('qr-fallback-note');
+
+  if (window.QRCode && canvas) {
+    QRCode.toCanvas(canvas, joinUrl, { width: 200, margin: 1, color: { dark: '#24070d', light: '#f7ece3' } }, (err) => {
+      if (err) {
+        console.error('Erreur génération QR code:', err);
+        canvas.style.display = 'none';
+        fallbackNote.textContent = 'Le QR code n\\'a pas pu être généré, utilise le lien ci-dessous.';
+      } else {
+        fallbackNote.textContent = '';
+      }
+    });
+  } else {
+    canvas.style.display = 'none';
+    fallbackNote.textContent = 'QR code indisponible, utilise le lien ci-dessous.';
   }
+
+  const copyBtn = document.getElementById('btn-copy-link');
+  const copyFeedback = document.getElementById('copy-feedback');
+  copyBtn.onclick = () => {
+    navigator.clipboard.writeText(joinUrl).then(() => {
+      copyFeedback.textContent = 'Lien copié ✓';
+      setTimeout(() => { copyFeedback.textContent = ''; }, 2500);
+    }).catch(() => {
+      copyFeedback.textContent = joinUrl;
+    });
+  };
 }
 
 document.getElementById('btn-start').addEventListener('click', () => {
@@ -180,6 +204,8 @@ socket.on('newItem', ({ index, total, item }) => {
     document.getElementById('question-zone').classList.add('hidden');
     document.getElementById('challenge-zone').classList.remove('hidden');
     document.getElementById('waiting-challenge-hint').textContent = '';
+    document.getElementById('btn-confirm-challenge').disabled = false;
+    document.getElementById('btn-skip-challenge').disabled = false;
     document.getElementById('challenge-instruction').textContent =
       item.mode === 'duo'
         ? 'Relevez ce défi tous les deux, ensemble, puis confirmez chacun votre côté.'
@@ -212,7 +238,15 @@ socket.on('partnerAnswered', ({ name }) => {
 document.getElementById('btn-confirm-challenge').addEventListener('click', () => {
   socket.emit('challengeDone');
   document.getElementById('btn-confirm-challenge').disabled = true;
+  document.getElementById('btn-skip-challenge').disabled = true;
   document.getElementById('waiting-challenge-hint').textContent = 'Confirmé. En attente de ton/ta partenaire…';
+});
+
+document.getElementById('btn-skip-challenge').addEventListener('click', () => {
+  if (!confirm("Passer ce défi ? Mettez-vous d'accord à l'oral sur un gage à réaliser à la place.")) return;
+  socket.emit('skipChallenge');
+  document.getElementById('btn-confirm-challenge').disabled = true;
+  document.getElementById('btn-skip-challenge').disabled = true;
 });
 
 socket.on('partnerConfirmedChallenge', ({ name }) => {
@@ -227,6 +261,17 @@ socket.on('challengeCompleted', () => {
   document.getElementById('reveal-answers').innerHTML =
     '<p class="muted">Défi relevé avec succès, bravo à vous deux 🔥</p>';
   document.getElementById('btn-confirm-challenge').disabled = false;
+  document.getElementById('btn-skip-challenge').disabled = false;
+});
+
+socket.on('challengeSkipped', () => {
+  const revealCard = document.getElementById('reveal-card');
+  document.getElementById('item-card').classList.add('hidden');
+  revealCard.classList.remove('hidden');
+  document.getElementById('reveal-answers').innerHTML =
+    "<p class=\"muted\">Défi passé — mettez-vous d'accord à l'oral sur un gage 🤝</p>";
+  document.getElementById('btn-confirm-challenge').disabled = false;
+  document.getElementById('btn-skip-challenge').disabled = false;
 });
 
 socket.on('revealAnswers', ({ answers }) => {
@@ -248,9 +293,10 @@ socket.on('gameFinished', ({ summary }) => {
   container.innerHTML = summary
     .map((row) => {
       if (row.item.type === 'challenge') {
+        const status = row.skipped ? "Défi passé — gage convenu à l'oral 🤝" : 'Défi relevé ✅';
         return `<div class="summary-item">
           <p class="item-text">${escapeHtml(row.item.text)}</p>
-          <p class="muted">Défi relevé ✅</p>
+          <p class="muted">${status}</p>
         </div>`;
       }
       const answersHtml = (row.answers || [])

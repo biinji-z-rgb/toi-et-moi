@@ -77,6 +77,9 @@
       <div class="qr-wrap">
         <canvas id="qr-canvas" width="200" height="200"></canvas>
       </div>
+      <p class="muted small" id="qr-fallback-note"></p>
+      <button class="btn btn-outline" id="btn-copy-link">Copier le lien d'invitation</button>
+      <p class="muted" id="copy-feedback"></p>
       <p class="muted">Session <span id="waiting-location-label"></span></p>
       <ul class="players-list" id="players-list"></ul>
       <p class="muted small" id="waiting-hint">En attente de ton/ta partenaire…</p>
@@ -110,6 +113,7 @@
       <div id="challenge-zone" class="hidden">
         <p class="muted small" id="challenge-instruction"></p>
         <button class="btn btn-primary" id="btn-confirm-challenge">C'est fait ✅</button>
+        <button class="btn btn-outline" id="btn-skip-challenge">Passer ce défi (gage à définir à l'oral)</button>
         <p class="muted small" id="waiting-challenge-hint"></p>
       </div>
     </div>
@@ -136,7 +140,7 @@
 </main>
 
 <script src="/socket.io/socket.io.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+<script src="vendor/qrcode.min.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
