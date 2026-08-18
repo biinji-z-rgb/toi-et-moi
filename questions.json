@@ -33,7 +33,7 @@
     "id": "l006",
     "type": "question",
     "level": "light",
-    "text": "Décris-moi en trois mots, sans réfléchir."
+    "text": "Peux-tu me décrire en trois mots, sans réfléchir ?"
   },
   {
     "id": "l007",
@@ -603,7 +603,7 @@
     "id": "vh016",
     "type": "question",
     "level": "very-hot",
-    "text": "Si tu devais écrire une seule phrase de nos envies secrètes sur un mot pour moi, que dirait-elle ?"
+    "text": "Si tu devais me laisser un petit mot contenant une seule phrase sur nos envies secrètes, que dirait-elle ?"
   },
   {
     "id": "vh017",
@@ -636,7 +636,7 @@
     "type": "challenge",
     "level": "light",
     "mode": "duo",
-    "text": "Prépare une boisson ou un petit encas pour ton/ta partenaire, sans qu'il/elle ne le demande."
+    "text": "Prépare une boisson ou un petit encas pour ton/ta partenaire, sans qu'il/elle te le demande."
   },
   {
     "id": "cd004",
@@ -979,7 +979,7 @@
     "type": "challenge",
     "level": "ultra-hot",
     "mode": "solo",
-    "text": "Envoie un message décrivant une envie que tu aimerais réaliser avec ton/ta partenaire."
+    "text": "Envoie un message qui décrit, sans filtre, la prochaine chose que tu as envie de vivre avec ton/ta partenaire."
   },
   {
     "id": "cs031",
@@ -1043,5 +1043,675 @@
     "level": "ultra-hot",
     "mode": "solo",
     "text": "Envoie une photo suggestive, un vocal de 15 secondes et une confession intime, tous les trois dans la même journée."
+  },
+  {
+    "id": "cd023",
+    "type": "challenge",
+    "level": "hot",
+    "mode": "duo",
+    "text": "Ton/ta partenaire choisit un vêtement que tu retires lentement devant lui/elle, puis tu restes quelques instants ainsi."
+  },
+  {
+    "id": "cd024",
+    "type": "challenge",
+    "level": "very-hot",
+    "mode": "duo",
+    "text": "Devant ton/ta partenaire, dévoile discrètement ce que tu portes en dessous, sans un mot, avant de tout recouvrir aussitôt."
+  },
+  {
+    "id": "cd025",
+    "type": "challenge",
+    "level": "hot",
+    "mode": "duo",
+    "text": "Fais un petit défilé devant ton/ta partenaire avec une tenue particulièrement séduisante, puis termine avec une pièce en moins."
+  },
+  {
+    "id": "cd026",
+    "type": "challenge",
+    "level": "medium",
+    "mode": "duo",
+    "text": "Présente trois tenues, dont une plus dénudée. Ton/ta partenaire choisit celle que tu porteras pour la soirée."
+  },
+  {
+    "id": "cd027",
+    "type": "challenge",
+    "level": "hot",
+    "mode": "duo",
+    "text": "Retire progressivement une couche de vêtements en gardant le dos tourné, puis retourne-toi lorsqu'on te le demande."
+  },
+  {
+    "id": "cd028",
+    "type": "challenge",
+    "level": "medium",
+    "mode": "duo",
+    "text": "Reste devant ton/ta partenaire avec une tenue légère pendant une minute, sans parler."
+  },
+  {
+    "id": "cd029",
+    "type": "challenge",
+    "level": "very-hot",
+    "mode": "duo",
+    "text": "Cache une partie de ta tenue avec tes mains ou un tissu et laisse ton/ta partenaire deviner ce qu'il y a en dessous avant de tout découvrir."
+  },
+  {
+    "id": "cd030",
+    "type": "challenge",
+    "level": "very-hot",
+    "mode": "duo",
+    "text": "Poste-toi devant le miroir dans une tenue très légère et laisse ton/ta partenaire te regarder une minute entière, sans un mot."
+  },
+  {
+    "id": "cd031",
+    "type": "challenge",
+    "level": "medium",
+    "mode": "duo",
+    "text": "Ton/ta partenaire choisit ce que tu gardes comme tenue pour les 10 prochaines minutes."
+  },
+  {
+    "id": "cd032",
+    "type": "challenge",
+    "level": "medium",
+    "mode": "duo",
+    "text": "Ton/ta partenaire ferme les yeux pendant que tu changes de tenue, puis découvre le résultat."
+  },
+  {
+    "id": "t001",
+    "type": "question",
+    "level": "hot",
+    "text": "Depuis que nous sommes ensemble, as-tu déjà été réellement tenté(e) par quelqu'un d'autre ?"
+  },
+  {
+    "id": "t002",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà voulu que quelqu'un te drague alors que tu savais que tu étais en couple ?"
+  },
+  {
+    "id": "t003",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà flirté avec quelqu'un simplement parce que tu aimais l'attention ?"
+  },
+  {
+    "id": "t004",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà volontairement prolongé une conversation parce que la personne te plaisait ?"
+  },
+  {
+    "id": "t005",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà eu envie d'embrasser quelqu'un d'autre ?"
+  },
+  {
+    "id": "t006",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà imaginé ce qui aurait pu se passer si tu avais accepté une avance ?"
+  },
+  {
+    "id": "t007",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà été à deux doigts de franchir une limite avec quelqu'un ?"
+  },
+  {
+    "id": "t008",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà caché à quel point quelqu'un te plaisait ?"
+  },
+  {
+    "id": "t009",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà pensé qu'une personne pourrait réellement te faire craquer ?"
+  },
+  {
+    "id": "t010",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà eu peur de perdre le contrôle face à une tentation ?"
+  },
+  {
+    "id": "t011",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà supprimé une conversation parce que tu ne voulais pas que je la voie ?"
+  },
+  {
+    "id": "t012",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà supprimé une photo reçue de quelqu'un pour la même raison ?"
+  },
+  {
+    "id": "t013",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà reçu une photo suggestive pendant notre relation ?"
+  },
+  {
+    "id": "t014",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà envoyé une photo suggestive à quelqu'un d'autre ?"
+  },
+  {
+    "id": "t015",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà envoyé une photo dans l'intention précise de séduire quelqu'un ?"
+  },
+  {
+    "id": "t016",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà attendu avec impatience le message d'une autre personne ?"
+  },
+  {
+    "id": "t017",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà relu plusieurs fois un message parce qu'il t'avait particulièrement plu ?"
+  },
+  {
+    "id": "t018",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà eu une conversation que tu considérais comme trop intime pour être innocente ?"
+  },
+  {
+    "id": "t019",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà menti sur quelqu'un avec qui tu discutais ?"
+  },
+  {
+    "id": "t020",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà caché une notification ou retourné ton téléphone pour éviter que je voie quelque chose ?"
+  },
+  {
+    "id": "t021",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà regardé volontairement le profil d'une personne parce qu'elle t'attirait ?"
+  },
+  {
+    "id": "t022",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà cherché une personne sur Instagram ou Facebook uniquement par attirance ?"
+  },
+  {
+    "id": "t023",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà conservé une photo parce que tu trouvais la personne attirante ?"
+  },
+  {
+    "id": "t024",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà regardé plusieurs fois les photos d'une même personne ?"
+  },
+  {
+    "id": "t025",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà imaginé un rendez-vous avec quelqu'un d'autre ?"
+  },
+  {
+    "id": "t026",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà imaginé embrasser une personne précise ?"
+  },
+  {
+    "id": "t027",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà imaginé une situation intime avec quelqu'un que nous connaissons ?"
+  },
+  {
+    "id": "t028",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà rêvé d'une autre personne de manière intime ?"
+  },
+  {
+    "id": "t029",
+    "type": "question",
+    "level": "very-hot",
+    "text": "As-tu déjà pensé à quelqu'un d'autre pendant un moment intime avec moi ?"
+  },
+  {
+    "id": "t030",
+    "type": "question",
+    "level": "very-hot",
+    "text": "As-tu déjà eu une pensée que tu n'aurais absolument pas voulu que je connaisse ?"
+  },
+  {
+    "id": "t031",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle personne réelle t'a le plus attiré(e) depuis notre rencontre ?"
+  },
+  {
+    "id": "t032",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle personne de notre entourage trouves-tu la plus séduisante ?"
+  },
+  {
+    "id": "t033",
+    "type": "question",
+    "level": "hot",
+    "text": "Quel type de personne pourrait le plus facilement te faire craquer ?"
+  },
+  {
+    "id": "t034",
+    "type": "question",
+    "level": "hot",
+    "text": "Quel est le compliment venant d'une autre personne qui t'a le plus marqué(e) ?"
+  },
+  {
+    "id": "t035",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà aimé particulièrement qu'une personne te désire ?"
+  },
+  {
+    "id": "t036",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà cherché à savoir si quelqu'un te trouvait attirant(e) ?"
+  },
+  {
+    "id": "t037",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà volontairement attiré l'attention de quelqu'un ?"
+  },
+  {
+    "id": "t038",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà laissé quelqu'un te draguer sans le/la repousser ?"
+  },
+  {
+    "id": "t039",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà voulu tester jusqu'où quelqu'un était prêt à aller avec toi ?"
+  },
+  {
+    "id": "t040",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà provoqué une situation de flirt uniquement pour voir ce qui allait arriver ?"
+  },
+  {
+    "id": "t041",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quelle est la chose la plus proche d'une tromperie que tu as faite depuis que nous sommes ensemble ?"
+  },
+  {
+    "id": "t042",
+    "type": "question",
+    "level": "hot",
+    "text": "Pour toi, où commence réellement la tromperie ?"
+  },
+  {
+    "id": "t043",
+    "type": "question",
+    "level": "hot",
+    "text": "Est-ce qu'un flirt secret est déjà une trahison ?"
+  },
+  {
+    "id": "t044",
+    "type": "question",
+    "level": "hot",
+    "text": "Un simple échange de photos suggestives serait-il déjà une trahison, selon toi ?"
+  },
+  {
+    "id": "t045",
+    "type": "question",
+    "level": "hot",
+    "text": "Et des messages très intimes avec quelqu'un d'autre, considérerais-tu cela comme une trahison ?"
+  },
+  {
+    "id": "t046",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quelle limite serait impossible à pardonner ?"
+  },
+  {
+    "id": "t047",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle limite pourrais-tu éventuellement pardonner ?"
+  },
+  {
+    "id": "t048",
+    "type": "question",
+    "level": "very-hot",
+    "text": "As-tu déjà fait quelque chose dont tu te demandes encore si c'était une tromperie ?"
+  },
+  {
+    "id": "t049",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà eu peur que je découvre quelque chose ?"
+  },
+  {
+    "id": "t050",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quelle est la chose que tu pourrais avoir le plus de mal à m'avouer ?"
+  },
+  {
+    "id": "t051",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle envie intime n'as-tu jamais osé me demander ?"
+  },
+  {
+    "id": "t052",
+    "type": "question",
+    "level": "hot",
+    "text": "Quel fantasme concernant notre couple gardes-tu encore pour toi ?"
+  },
+  {
+    "id": "t053",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle chose aimerais-tu que nous essayions au moins une fois ?"
+  },
+  {
+    "id": "t054",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle chose te gêne de m'avouer parce que tu as peur de ma réaction ?"
+  },
+  {
+    "id": "t055",
+    "type": "question",
+    "level": "hot",
+    "text": "Y a-t-il une envie que tu pensais ne jamais pouvoir me dire ?"
+  },
+  {
+    "id": "t056",
+    "type": "question",
+    "level": "hot",
+    "text": "Quel scénario de séduction te fait particulièrement fantasmer ?"
+  },
+  {
+    "id": "t057",
+    "type": "question",
+    "level": "hot",
+    "text": "Préfères-tu être séduit(e) ou prendre l'initiative ?"
+  },
+  {
+    "id": "t058",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle situation te donnerait le plus envie de me séduire ?"
+  },
+  {
+    "id": "t059",
+    "type": "question",
+    "level": "hot",
+    "text": "Quel détail chez moi déclenche immédiatement ton attirance ?"
+  },
+  {
+    "id": "t060",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle chose aimerais-tu que je fasse plus souvent pour te donner envie ?"
+  },
+  {
+    "id": "t061",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà fait semblant de ne pas avoir envie alors que tu en avais très envie ?"
+  },
+  {
+    "id": "t062",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà fait semblant d'avoir envie alors que ce n'était pas le cas ?"
+  },
+  {
+    "id": "t063",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà pensé que nous n'avions pas assez de moments intimes ?"
+  },
+  {
+    "id": "t064",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà pensé que nous en avions trop peu pendant une période ?"
+  },
+  {
+    "id": "t065",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle fréquence idéale voudrais-tu pour nous ?"
+  },
+  {
+    "id": "t066",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle fréquence te convient réellement aujourd'hui ?"
+  },
+  {
+    "id": "t067",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà eu envie de moi sans jamais me le montrer ?"
+  },
+  {
+    "id": "t068",
+    "type": "question",
+    "level": "hot",
+    "text": "Dans quelle situation as-tu le plus de mal à résister à l'envie de me séduire ?"
+  },
+  {
+    "id": "t069",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle situation banale peut soudainement te donner envie de me séduire ?"
+  },
+  {
+    "id": "t070",
+    "type": "question",
+    "level": "hot",
+    "text": "Qu'est-ce qui pourrait faire revenir immédiatement une grosse tension entre nous ?"
+  },
+  {
+    "id": "t071",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà été jaloux/jalouse d'une personne qui me draguait ?"
+  },
+  {
+    "id": "t072",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà aimé me voir attirer quelqu'un d'autre ?"
+  },
+  {
+    "id": "t073",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà voulu me rendre jaloux/jalouse ?"
+  },
+  {
+    "id": "t074",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà imaginé que quelqu'un d'autre me séduisait ?"
+  },
+  {
+    "id": "t075",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle situation te rendrait réellement jaloux/jalouse ?"
+  },
+  {
+    "id": "t076",
+    "type": "question",
+    "level": "hot",
+    "text": "Est-ce que savoir que quelqu'un me trouve attirant(e) te plaît ou te dérange ?"
+  },
+  {
+    "id": "t077",
+    "type": "question",
+    "level": "hot",
+    "text": "Pourrais-tu me raconter une attirance extérieure sans avoir peur de ma réaction ?"
+  },
+  {
+    "id": "t078",
+    "type": "question",
+    "level": "hot",
+    "text": "Préférerais-tu connaître toutes mes pensées, ou que certaines restent secrètes ?"
+  },
+  {
+    "id": "t079",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quelle vérité de ma part pourrait réellement te blesser ?"
+  },
+  {
+    "id": "t080",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quelle vérité de ta part pourrait réellement me surprendre ?"
+  },
+  {
+    "id": "t081",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà eu envie de recevoir davantage d'attention de quelqu'un d'autre ?"
+  },
+  {
+    "id": "t082",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà apprécié une attention que tu savais ambiguë ?"
+  },
+  {
+    "id": "t083",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà imaginé être célibataire uniquement pour pouvoir tenter quelque chose ?"
+  },
+  {
+    "id": "t084",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà pensé « heureusement que mon/ma partenaire ne sait pas ce que je pense » ?"
+  },
+  {
+    "id": "t085",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà eu une occasion que tu n'as jamais racontée ?"
+  },
+  {
+    "id": "t086",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà regretté une occasion de flirt que tu n'avais pas saisie ?"
+  },
+  {
+    "id": "t087",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà souhaité qu'une personne fasse le premier pas ?"
+  },
+  {
+    "id": "t088",
+    "type": "question",
+    "level": "hot",
+    "text": "As-tu déjà imaginé comment tu réagirais si quelqu'un te faisait une proposition très directe ?"
+  },
+  {
+    "id": "t089",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle situation serait la plus dangereuse pour toi face à la tentation ?"
+  },
+  {
+    "id": "t090",
+    "type": "question",
+    "level": "hot",
+    "text": "Penses-tu réellement pouvoir résister à n'importe quelle personne qui t'attire ?"
+  },
+  {
+    "id": "t091",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quelle est la chose la plus gênante que je pourrais découvrir dans ton téléphone ?"
+  },
+  {
+    "id": "t092",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quelle question de ce jeu espères-tu ne jamais recevoir ?"
+  },
+  {
+    "id": "t093",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quelle réponse as-tu le plus peur de me donner ?"
+  },
+  {
+    "id": "t094",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quel secret concernant tes envies n'as-tu encore jamais partagé ?"
+  },
+  {
+    "id": "t095",
+    "type": "question",
+    "level": "hot",
+    "text": "Quelle chose aimerais-tu que je devine sans que tu aies à la demander ?"
+  },
+  {
+    "id": "t096",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quelle confession pourrais-tu faire aujourd'hui que tu n'aurais jamais osé faire il y a quelques années ?"
+  },
+  {
+    "id": "t097",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Si je te garantissais que je ne me vexerais pas, que me révélerais-tu ?"
+  },
+  {
+    "id": "t098",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Si tu devais me dire une seule chose que tu n'as jamais osé dire concernant notre intimité, laquelle ?"
+  },
+  {
+    "id": "t099",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quelle est ta plus grosse tentation depuis que nous sommes ensemble ?"
+  },
+  {
+    "id": "t100",
+    "type": "question",
+    "level": "very-hot",
+    "text": "Quelle vérité sur toi pourrais-tu me révéler ce soir et qui changerait complètement ma perception de tes envies ?"
   }
 ]
