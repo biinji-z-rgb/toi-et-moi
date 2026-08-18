@@ -120,6 +120,7 @@ io.on('connection', (socket) => {
     session.currentIndex = 0;
     session.answers = {};
     session.confirmed = {};
+    session.skipped = {};
     session.started = true;
 
     io.to(code).emit('gameStarted', {
@@ -170,6 +171,19 @@ io.on('connection', (socket) => {
     }
   });
 
+  // Un des deux partenaires peut passer un défi : ils se mettent d'accord à l'oral sur un gage,
+  // l'app ne gère pas le gage lui-même, elle enregistre juste que le défi a été passé.
+  socket.on('skipChallenge', () => {
+    const code = socket.data.code;
+    const session = sessions[code];
+    if (!session || !session.started) return;
+
+    const idx = session.currentIndex;
+    session.skipped[idx] = true;
+
+    io.to(code).emit('challengeSkipped', { index: idx });
+  });
+
   socket.on('nextQuestion', () => {
     const code = socket.data.code;
     const session = sessions[code];
@@ -180,6 +194,7 @@ io.on('connection', (socket) => {
     if (session.currentIndex >= session.deck.length) {
       const summary = session.deck.map((item, idx) => ({
         item,
+        skipped: !!session.skipped[idx],
         answers: session.answers[idx]
           ? session.sockets.map((sid) => {
               const p = session.players.find((pl) => pl.id === sid);
