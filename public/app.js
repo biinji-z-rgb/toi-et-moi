@@ -108,7 +108,7 @@ function renderWaitingRoom(code, players, location) {
       if (err) {
         console.error('Erreur génération QR code:', err);
         canvas.style.display = 'none';
-        fallbackNote.textContent = 'Le QR code n\\'a pas pu être généré, utilise le lien ci-dessous.';
+        fallbackNote.textContent = "Le QR code n'a pas pu être généré, utilise le lien ci-dessous.";
       } else {
         fallbackNote.textContent = '';
       }
